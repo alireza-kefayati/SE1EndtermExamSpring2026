@@ -1,0 +1,14 @@
+{
+  "name": "se1-endterm-online-tv",
+  "version": "1.0.0",
+  "description": "Online TV streaming service - SE1 endterm project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "coverage:csv": "node scripts/coverage-to-csv.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
